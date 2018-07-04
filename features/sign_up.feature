@@ -21,7 +21,7 @@ Funcionalidade: Cadastro no sistema
     E eu preencher o campo de confirmar senha com "123456"
     E eu clicar no botão de voltar
     E eu clicar no botão "signUpBtn"
-    Entao eu devo permanecer na página inicial do app
+    Entao eu devo permanecer na página de registro do app
 
   @failed_sign_up_password
   Cenário: Cadastro falho devido a erro na confirmação de senha
