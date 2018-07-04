@@ -13,8 +13,8 @@ Quando("eu preencher o campo de email com {string} e senha com {string}") do |em
   driver.navigate.back
 end
 
-Quando("clicar no botão {string}") do |btn_entrar|
-  find_element(id: "signInBtn").click
+Quando("eu clicar no botão {string}") do |btn_entrar|
+  find_element(id: btn_entrar).click
 end
 
 Então("devo ver o menu de opções") do
