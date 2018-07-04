@@ -1,4 +1,5 @@
 Dado("eu clicar no botão de voltar") do
+  sleep 3
   driver.navigate.back
 end
 

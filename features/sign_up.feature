@@ -10,4 +10,4 @@ Funcionalidade: Cadastro no sistema
     E eu preencher o campo de confirmar senha com "123456"
     E eu clicar no botão de voltar
     E eu clicar no botão "signUpBtn"
-    Entao devo ver o menu de opções
+    Entao eu devo ver o menu de opções

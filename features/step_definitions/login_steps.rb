@@ -26,7 +26,8 @@ Então("eu devo ver o menu de opções") do
 end
 
 Entao("eu devo permanecer na página inicial do app") do
-  Appium::TouchAction.new.tap( x: 500, y:300, count: 6).release.perform
+  Appium::TouchAction.new.tap( x: 500, y:300, count: 1).release.perform
+  sleep 5
   text("Log In")
   button("ENTRAR")
   button("REGISTRAR")
