@@ -17,7 +17,7 @@ Quando("eu clicar no botão {string}") do |btn_entrar|
   find_element(id: btn_entrar).click
 end
 
-Então("devo ver o menu de opções") do
+Então("eu devo ver o menu de opções") do
   button("CATEGORIAS")
   button("FAVORITAS")
   button("SUGERIR PERGUNTAS")
