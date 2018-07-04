@@ -18,10 +18,16 @@ Quando("eu clicar no botão {string}") do |btn_entrar|
 end
 
 Então("devo ver o menu de opções") do
-  # find_element(id: "categoriesButton")
   button("CATEGORIAS")
   button("FAVORITAS")
   button("SUGERIR PERGUNTAS")
   button("ACHIEVEMENTS")
   button("OPÇÕES")
+end
+
+Entao("eu devo permanecer na página inicial do app") do
+  Appium::TouchAction.new.tap( x: 500, y:300, count: 6).release.perform
+  text("Log In")
+  button("ENTRAR")
+  button("REGISTRAR")
 end
