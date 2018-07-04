@@ -4,7 +4,7 @@ Funcionalidade: Autenticação no sistema
   @sucess_auth
   Cenário: Autenticação feita com sucesso
     Dado que eu tenha um usuário no sistema com email "nick-nish@hotmail.com" e senha "123456"
-    E esteja na página inicial do app
+    E que eu esteja na página inicial do app
     Quando eu preencher o campo de email com "nick-nish@hotmail.com" e senha com "123456"
-    E clicar no botão "signInBtn"
+    E eu clicar no botão "signInBtn"
     Entao devo ver o menu de opções
