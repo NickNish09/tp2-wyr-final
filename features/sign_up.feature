@@ -23,7 +23,7 @@ Funcionalidade: Cadastro no sistema
     E eu clicar no botão "signUpBtn"
     Entao eu devo permanecer na página inicial do app
 
-@failed_sign_up_password
+  @failed_sign_up_password
   Cenário: Cadastro falho devido a erro na confirmação de senha
     Dado que eu esteja na página inicial do app
     E eu clicar no botão de voltar
@@ -32,4 +32,4 @@ Funcionalidade: Cadastro no sistema
     E eu preencher o campo de confirmar senha com "000000"
     E eu clicar no botão de voltar
     E eu clicar no botão "signUpBtn"
-    Entao eu devo permanecer na página inicial do app
+    Entao eu devo permanecer na página de registro do app

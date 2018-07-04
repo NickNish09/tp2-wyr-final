@@ -22,3 +22,8 @@ Funcionalidade: Escolher uma categoria para jogar o jogo
     Quando eu responder as 5 perguntas
     Então eu devo ver os botões para as categorias:
     |OP1|COMIDAS|
+    |OP2|MORTES|
+    |OP3|COISAS NOJENTAS|
+    |OP4|VIDA|
+    |OP5|FILOSÓFICAS|
+    |OP6|UNIVERSO|

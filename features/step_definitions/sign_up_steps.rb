@@ -21,3 +21,11 @@ Quando("eu preencher o campo de email com um email existente {string} e senha {s
   find_element(id: "passwordText").send_keys(senha_nova)
   driver.navigate.back
 end
+
+Entao("eu devo permanecer na página de registro do app") do
+  Appium::TouchAction.new.tap( x: 500, y:300, count: 1).release.perform
+  sleep 5
+  text("Registrar")
+  button("ENTRAR")
+  button("REGISTRAR")
+end
