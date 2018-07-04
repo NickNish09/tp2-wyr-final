@@ -6,4 +6,4 @@ Funcionalidade: Visualizar categorias do sistema
     Dado que eu tenha me logado no sistema
     Quando eu clicar no botão "categoriesButton"
     Então eu devo ver os botões para as categorias:
-    |COMIDAS|
+    |OP1|COMIDAS|
