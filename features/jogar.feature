@@ -20,6 +20,5 @@ Funcionalidade: Escolher uma categoria para jogar o jogo
     Dado que eu tenha uma categoria do jogo denominada "COMIDAS"
     E eu clicar no botão "foodButton"
     Quando eu responder as 5 perguntas
-    E eu clicar no botão "returnToCategories"
     Então eu devo ver os botões para as categorias:
     |OP1|COMIDAS|
