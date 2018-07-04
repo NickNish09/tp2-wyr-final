@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9455a78f-433a-47af-b015-c42dece8c356" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/sign_up_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/sign_up_steps.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/visualizar_categorias_steps.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/features/visualizar_categorias.feature" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +28,8 @@
       <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="176">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -36,18 +38,38 @@
       <file leaf-file-name="sign_up.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/sign_up.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="242">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sign_up_steps.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="visualizar_categorias.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/visualizar_categorias.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visualizar_categorias_steps.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/visualizar_categorias_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_up_steps.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/sign_up_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+            <state relative-caret-position="242">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,6 +98,8 @@
         <option value="$PROJECT_DIR$/features/login.feature" />
         <option value="$PROJECT_DIR$/features/sign_up.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/sign_up_steps.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/visualizar_categorias_steps.rb" />
+        <option value="$PROJECT_DIR$/features/visualizar_categorias.feature" />
       </list>
     </option>
   </component>
@@ -181,7 +205,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9502000" />
+    <option name="totallyTimeSpent" value="12206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="90" y="-5" width="1831" height="1086" extended-state="6" />
@@ -413,26 +437,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/sign_up_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/login.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="176">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/sign_up.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="242">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/sign_up_steps.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/visualizar_categorias_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/visualizar_categorias.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
