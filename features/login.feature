@@ -7,5 +7,4 @@ Funcionalidade: Autenticação no sistema
     E esteja na página inicial do app
     Quando eu preencher o campo de email com "nick-nish@hotmail.com" e senha com "123456"
     E clicar no botão "signInBtn"
-    Então eu devo ver a mensagem "autenticado com sucesso"
-    E ver o menu de opções
+    Entao devo ver o menu de opções

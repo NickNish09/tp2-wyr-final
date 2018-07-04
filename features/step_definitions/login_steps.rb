@@ -17,10 +17,11 @@ Quando("clicar no botão {string}") do |btn_entrar|
   find_element(id: "signInBtn").click
 end
 
-Então("eu devo ver a mensagem {string}") do |message|
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
-Então("ver o menu de opções") do
-  pending # Write code here that turns the phrase above into concrete actions
+Então("devo ver o menu de opções") do
+  # find_element(id: "categoriesButton")
+  button("CATEGORIAS")
+  button("FAVORITAS")
+  button("SUGERIR PERGUNTAS")
+  button("ACHIEVEMENTS")
+  button("OPÇÕES")
 end
